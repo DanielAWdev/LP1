@@ -22,11 +22,11 @@ Inicio
    Escreval("Nota do Exame final:")
    leia(EXF)
    Base <- (P1 * 0.5) + (E1 * 0.2) + (E2 * 0.3) + (X + SUB * 0.15)
-   se Base > 5.9 entao
+   se Base >= 5.9 entao
       Media <- (Base * 0.5) + (API * 0.5)
       Escreval(Media)
    senao
-      se Base > 4 entao
+      se Base >= 4 entao
          Media <- EXF
          escreval(Media)
       senao
