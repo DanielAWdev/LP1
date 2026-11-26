@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.RoupaController">
+    <padding><Insets bottom="20.0" left="20.0" right="20.0" top="20.0" /></padding>
+    <children>
+        <Label text="Cadastro de Roupa"><font><Font name="System Bold" size="18.0" /></font></Label>
+        <TextField fx:id="txtTipo" promptText="Tipo (ex: Camisa)" />
+        <TextField fx:id="txtTamanho" promptText="Tamanho (ex: M)" />
+        <TextField fx:id="txtPreco" promptText="Preço (R$)" />
+        <TextField fx:id="txtCor" promptText="Cor" />
+        <TextField fx:id="txtMarca" promptText="Marca" />
+        <Button mnemonicParsing="false" onAction="#cadastrarRoupa" text="Cadastrar Roupa" />
+        <Label fx:id="lblResultado" text="" />
+        <Button mnemonicParsing="false" onAction="#voltar" text="Voltar ao Menu"/>
+    </children>
+</VBox>

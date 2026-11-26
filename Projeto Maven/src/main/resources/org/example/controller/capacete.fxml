@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.CapaceteController">
+    <padding><Insets bottom="20.0" left="20.0" right="20.0" top="20.0" /></padding>
+    <children>
+        <Label text="Cadastro de Capacete"><font><Font name="System Bold" size="18.0" /></font></Label>
+        <TextField fx:id="txtMarca" promptText="Marca" />
+        <TextField fx:id="txtTamanho" promptText="Tamanho (P, M, G)" />
+        <CheckBox fx:id="chkVisor" text="Possui Visor?" />
+        <Button mnemonicParsing="false" onAction="#cadastrarCapacete" text="Cadastrar Capacete" />
+        <Label fx:id="lblResultado" text="" />
+        <Button mnemonicParsing="false" onAction="#voltar" text="Voltar ao Menu" />
+    </children>
+</VBox>

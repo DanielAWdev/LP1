@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fitToWidth="true" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.PrimaryController">
+   <content>
+      <VBox alignment="CENTER" spacing="10.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <Label text="Menu Principal">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+
+            <Label text="Exercícios">
+               <font><Font name="System Bold" size="14.0" /></font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#abrirExercicio1" text="1 - Verificação de Múltiplo" />
+            <Button mnemonicParsing="false" onAction="#abrirExercicio2" text="2 - Validação de Senha" />
+            <Button mnemonicParsing="false" onAction="#abrirExercicio3" text="3 - Caixa de Supermercado" />
+            <Button mnemonicParsing="false" onAction="#abrirExercicio4" text="4 - Média de Temperatura" />
+            <Button mnemonicParsing="false" onAction="#abrirExercicio5" text="5 - Os Trinta e Cinco Camelos" />
+            <Button mnemonicParsing="false" onAction="#abrirExercicio6" text="6 - Calculadora de Viagem" />
+            <Button mnemonicParsing="false" onAction="#abrirExercicio7" text="7 - Aluguel de Carro" />
+
+            <Label text="(Loja)">
+               <font><Font name="System Bold" size="14.0" /></font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#abrirRoupa" text="Roupa" />
+            <Button mnemonicParsing="false" onAction="#abrirCalcado" text="Calçado" />
+            <Button mnemonicParsing="false" onAction="#abrirAcessorio" text="Acessório" />
+            <Button mnemonicParsing="false" onAction="#abrirLoja" text="Loja" />
+
+            <Label text="(Bicicleta)">
+               <font><Font name="System Bold" size="14.0" /></font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#abrirBicicleta" text="Bicicleta" />
+            <Button mnemonicParsing="false" onAction="#abrirCiclista" text="Ciclista" />
+            <Button mnemonicParsing="false" onAction="#abrirTrilha" text="Trilha" />
+            <Button mnemonicParsing="false" onAction="#abrirCapacete" text="Capacete" />
+
+            <Label text="(Máscara)">
+               <font><Font name="System Bold" size="14.0" /></font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#abrirMascara" text="Máscara" />
+            <Button mnemonicParsing="false" onAction="#abrirTribo" text="Tribo" />
+            <Button mnemonicParsing="false" onAction="#abrirRitual" text="Ritual" />
+            <Button mnemonicParsing="false" onAction="#abrirColecionador" text="Colecionador" />
+
+            <Label text="(Cabelo)">
+               <font><Font name="System Bold" size="14.0" /></font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#abrirCabelo" text="Cabelo" />
+            <Button mnemonicParsing="false" onAction="#abrirPersonagem" text="Personagem" />
+            <Button mnemonicParsing="false" onAction="#abrirSalaoBeleza" text="Salão de Beleza" />
+            <Button mnemonicParsing="false" onAction="#abrirTintura" text="Tintura" />
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>

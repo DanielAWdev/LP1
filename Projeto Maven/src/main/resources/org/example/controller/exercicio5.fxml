@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.Exercicio5Controller">
+   <padding><Insets bottom="20.0" left="20.0" right="20.0" top="20.0" /></padding>
+   <children>
+      <Label text="Exercício 5 - Os Trinta e Cinco Camelos"><font><Font name="System Bold" size="18.0" /></font></Label>
+      <TextField fx:id="txtCamelos" promptText="Quantidade de Camelos (ex: 35)" />
+      <TextField fx:id="txtParte1" promptText="Divisor do 1º irmão (ex: 2)" />
+      <TextField fx:id="txtParte2" promptText="Divisor do 2º irmão (ex: 3)" />
+      <TextField fx:id="txtParte3" promptText="Divisor do 3º irmão (ex: 9)" />
+      <Button mnemonicParsing="false" onAction="#calcular" text="Calcular Divisão" />
+      <Label fx:id="lblResultado" text="" />
+      <Button mnemonicParsing="false" onAction="#voltar" text="Voltar ao Menu" />
+   </children>
+</VBox>
