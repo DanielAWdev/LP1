@@ -9,10 +9,8 @@ import static org.example.App.setRoot;
 public class PrimaryController {
 
 
-    @FXML
-    public void abrirExercicio1() throws IOException { setRoot("controller/exercicio1"); }
-    @FXML
-    public void abrirExercicio2() throws IOException { setRoot("controller/exercicio2"); }
+    @FXML public void abrirExercicio1() throws IOException { setRoot("controller/exercicio1"); }
+    @FXML public void abrirExercicio2() throws IOException { setRoot("controller/exercicio2"); }
     @FXML private void abrirExercicio3() throws IOException { setRoot("controller/exercicio3"); }
     @FXML private void abrirExercicio4() throws IOException { setRoot("controller/exercicio4"); }
     @FXML private void abrirExercicio5() throws IOException { setRoot("controller/exercicio5"); }
@@ -33,7 +31,6 @@ public class PrimaryController {
     @FXML private void abrirTribo() throws IOException { setRoot("tribo"); }
     @FXML private void abrirRitual() throws IOException { setRoot("controller/ritual"); }
     @FXML private void abrirColecionador() throws IOException { setRoot("controller/colecionador"); }
-
 
     @FXML private void abrirCabelo() throws IOException { setRoot("controller/cabelo"); }
     @FXML private void abrirPersonagem() throws IOException { setRoot("controller/personagem"); }
